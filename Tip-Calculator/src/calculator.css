@@ -1,0 +1,55 @@
+body {
+  background-color: #efe5e5;
+  margin: 0;
+}
+
+.CalculatorHeader {
+  background-color: blue;
+
+  background: linear-gradient(135deg, #e1e1e6, #0f0f0f, #0c20d9);
+  height: 100px;
+}
+
+.CalculatorBody {
+  height: 600px;
+  border: 2px solid black;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  margin: 0;
+  font-size: 28px;
+}
+
+.inputContainer {
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+
+.billAmount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   max-width: 400px; }
+
+.amount {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #6b6868;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
